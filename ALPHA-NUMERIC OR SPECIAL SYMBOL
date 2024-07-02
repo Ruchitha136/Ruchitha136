@@ -1,0 +1,32 @@
+//READ A CHARACTER AND PRINT APLHA-NUMERIC OR SPECIAL SYMBOL
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        char ch=s.next().charAt(0);
+        if(Character.isLetterOrDigit(ch))
+        {
+        System.out.println("Alpha-numeric");
+        if(Character.isLetter(ch))
+        {
+            System.out.println("Alphabet");
+              if(Character.isUpperCase(ch))
+              {
+                  System.out.println("Upper case");
+              }
+              else
+              {
+                  System.out.println("Lowercase");
+              }
+        }
+        else
+        {
+            System.out.println("Digit");
+        }
+        }
+        {
+            System.out.println("Special Symbol");
+        }
+        
+    }
+}
