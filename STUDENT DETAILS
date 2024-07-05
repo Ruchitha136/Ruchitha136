@@ -1,0 +1,29 @@
+class Student
+{
+int admno,mat,phy,che;
+String name;
+void get(int admno,String name,int mat,int phy,int che)
+{
+admno=admno;
+name=name;
+mat=mat;
+phy=phy;
+che=che;
+}
+void show()
+{
+System.out.println(admno+" "+name+" "+mat+" "+phy+" "+che);
+}
+}
+class Test3
+{
+public static void main(String args[])
+{
+Student s1=new Student();
+s1.get(111,"aaa",98,55,88);
+s1.show();
+Student s2=new Student();
+s1.get(222,"bbb",93,65,80);
+s2.show();
+}
+}
