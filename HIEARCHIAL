@@ -20,7 +20,7 @@ System.out.println("Additon="+(a+b));
 }
 class Product extends Sample
 {
-void muitiply()
+void multiply()
 {
 System.out.println("Product="+(a+b));
 }
